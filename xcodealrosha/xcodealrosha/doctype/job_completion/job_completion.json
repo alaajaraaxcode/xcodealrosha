@@ -1,0 +1,164 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:site_name",
+ "creation": "2025-02-24 00:49:13.328855",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "informations_tab",
+  "customer",
+  "po",
+  "si",
+  "qu",
+  "section_break_zrkp",
+  "site_name",
+  "location",
+  "unit_details",
+  "date",
+  "type_of_work",
+  "number_of_pages",
+  "column_break_cwaq",
+  "descreption_of_work",
+  "action_taken",
+  "images_tab",
+  "before",
+  "after"
+ ],
+ "fields": [
+  {
+   "fieldname": "site_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Site Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Location"
+  },
+  {
+   "fieldname": "unit_details",
+   "fieldtype": "Data",
+   "label": "Unit Details"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Datetime",
+   "label": "Date"
+  },
+  {
+   "fieldname": "type_of_work",
+   "fieldtype": "Data",
+   "label": "Type Of Work"
+  },
+  {
+   "fieldname": "po",
+   "fieldtype": "Link",
+   "label": "PO",
+   "options": "Purchase Order"
+  },
+  {
+   "fieldname": "si",
+   "fieldtype": "Link",
+   "label": "SI",
+   "options": "Sales Invoice"
+  },
+  {
+   "fieldname": "qu",
+   "fieldtype": "Link",
+   "label": "QU",
+   "options": "Quotation"
+  },
+  {
+   "fieldname": "number_of_pages",
+   "fieldtype": "Data",
+   "label": "Number Of Pages"
+  },
+  {
+   "fieldname": "column_break_cwaq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "descreption_of_work",
+   "fieldtype": "Long Text",
+   "label": "Descreption Of Work"
+  },
+  {
+   "fieldname": "action_taken",
+   "fieldtype": "Long Text",
+   "label": "Action Taken"
+  },
+  {
+   "fieldname": "section_break_zrkp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "informations_tab",
+   "fieldtype": "Tab Break",
+   "label": "Informations"
+  },
+  {
+   "fieldname": "images_tab",
+   "fieldtype": "Tab Break",
+   "label": "Images"
+  },
+  {
+   "fieldname": "before",
+   "fieldtype": "Table",
+   "label": "Before",
+   "options": "Pictures1"
+  },
+  {
+   "fieldname": "after",
+   "fieldtype": "Table",
+   "label": "After",
+   "options": "Pictures2"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Customer"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-25 08:27:32.473473",
+ "modified_by": "Administrator",
+ "module": "Xcodealrosha",
+ "name": "Job Completion",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "All",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
