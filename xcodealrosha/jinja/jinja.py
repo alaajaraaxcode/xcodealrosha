@@ -1,8 +1,6 @@
 import frappe
 from datetime import datetime
 import locale
-import typing
-from typing import Any, Literal, Optional, TypeVar, Union
 
 @frappe.whitelist(allow_guest = True)
 def get_day(sn):
